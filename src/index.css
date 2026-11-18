@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-sans: "DM Sans", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+@layer base {
+  :root {
+    --pl-bg: #F4EFE6;
+    --pl-surface: #FCF9F3;
+    --pl-subtle: #EBE3D5;
+    --pl-border: #DDD3C0;
+    --pl-text: #241E18;
+    --pl-muted: #695E51;
+    --pl-accent: #7A3E1D;
+    --pl-accent-text: #FFFFFF;
+  }
+
+  html {
+    font-family: var(--font-sans);
+    color: var(--pl-text);
+    background-color: var(--pl-bg);
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-display);
+  }
+
+  .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+.pl-bg {
+  background-color: var(--pl-bg);
+}
+
+.pl-surface {
+  background-color: var(--pl-surface);
+}
+
+.pl-subtle {
+  background-color: var(--pl-subtle);
+}
+
+.pl-border {
+  border-color: var(--pl-border);
+}
+
+.pl-text {
+  color: var(--pl-text);
+}
+
+.pl-muted {
+  color: var(--pl-muted);
+}
+
+.pl-accent-bg {
+  background-color: var(--pl-accent);
+  color: var(--pl-accent-text);
+}
+
+.pl-accent-text {
+  color: var(--pl-accent);
+}

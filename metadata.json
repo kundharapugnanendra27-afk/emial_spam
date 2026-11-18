@@ -1,0 +1,6 @@
+{
+  "name": "PhishLens",
+  "description": "Phishing email detection machine learning workbench using Naive Bayes byte and token classification paired with ensemble learning to maximize accuracy and minimize false positive rates.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
